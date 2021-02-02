@@ -68,8 +68,10 @@ def get_content(url):
     p = urllib.parse.urlparse(LEETCODE_URL)
     clazz = http.client.HTTPSConnection if p.scheme == 'https' else http.client.HTTPConnection
     conn = clazz(p.hostname, p.port)
-    conn.request("POST", p.path, json.dumps(data),
-                 {'Content-Type': 'application/json', 'origin': 'https://leetcode-cn.com'})
+    conn.request(
+        "POST", p.path, json.dumps(data),
+        {'Content-Type': 'application/json', 'origin': 'https://leetcode-cn.com'}
+    )
     resp = conn.getresponse()
 
     if resp.status // 100 != 2:
@@ -87,15 +89,16 @@ def write2file(url, output):
     if not data:
         err("have no content of {}", url)
 
+    qid = data.get('questionId')
     title = data.get('translatedTitle') or data.get('titleSlug')
     content = data.get('translatedContent') or data.get('content')
 
-    filename = "{}-{}.md".format(data.get('questionId'), data.get('titleSlug'))
+    filename = "{}-{}.md".format(qid, data.get('titleSlug'))
     filepath = os.path.join(output, filename)
     print(filepath)
 
     with open(filepath, 'w+') as f:
-        f.write('# {} - {}\n\n'.format(title, data.get('difficulty', '').lower()))
+        f.write('# [{}. {}]({}) - {}\n\n'.format(qid, title, url, data.get('difficulty', '').lower()))
         f.write(content)
         f.write('\n')
         f.write(template)
