@@ -7,6 +7,9 @@ import json
 import os
 import urllib.parse
 
+__author__ = "Jie Liu <eirture@gmail.com>"
+
+
 LEETCODE_URL = "https://leetcode-cn.com/graphql/"
 
 CONTENT_GRAPHQL = '''query questionData($titleSlug: String!) {
