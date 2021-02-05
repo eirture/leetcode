@@ -1,4 +1,4 @@
 
 .PHONY: commit
 commit:
-	./scripts/commit
+	./scripts/commit.sh
