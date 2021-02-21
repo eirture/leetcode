@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 jobs:
-  deploy:
+  update-readme:
 
     runs-on: ubuntu-latest
 
