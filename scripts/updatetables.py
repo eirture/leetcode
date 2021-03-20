@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import datetime
 import os
 import re
 import subprocess
@@ -58,7 +59,7 @@ def execute(commands):
 def get_file_date(path: str):
     cmd = f'git log -1 --pretty=format:%ad --date=format:%Y/%m/%d -- {path}'
     stdout, _ = execute(cmd.split(' '))
-    return stdout
+    return stdout or datetime.datetime.now().strftime("%Y/%m/%d")
 
 
 def do(dir_path: str):
