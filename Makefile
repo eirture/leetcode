@@ -9,8 +9,6 @@ commit:
 .PHONY: table
 table:
 	@./scripts/updatetables.py
-	git add README.md
-	git commit -m 'update the table'
 
 .PHONY: new
 new:
