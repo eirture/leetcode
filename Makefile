@@ -8,7 +8,6 @@ commit: table
 
 .PHONY: table
 table:
-	@git add -A
 	@./scripts/updatetables.py
 
 .PHONY: new
