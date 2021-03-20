@@ -5,6 +5,11 @@
 make new url=https://leetcode-cn.com/problems/xxxx/
 ```
 
+提交 commit:
+```sh
+make commit
+```
+
 ### Leetcode Algorithms
 
 | # | Title | Difficulty | Date |
