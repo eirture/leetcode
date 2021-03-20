@@ -22,6 +22,7 @@ make commit
 |1538|[可获得的最大点数](./algorithms/1538-maximum-points-you-can-obtain-from-cards.md)|medium|2021/02/06|
 |682|[棒球比赛](./algorithms/682-baseball-game.md)|easy|2021/02/05|
 |564|[寻找最近的回文数](./algorithms/564-find-the-closest-palindrome.md)|hard|2021/02/24|
+|528|[交换链表中的节点](./algorithms/528-swapping-nodes-in-a-linked-list.md)|medium|2021/03/20|
 |496|[下一个更大元素 I](./algorithms/496-next-greater-element-i.md)|easy|2021/02/05|
 |234|[回文链表](./algorithms/234-palindrome-linked-list.md)|easy|2021/02/21|
 |160|[相交链表](./algorithms/160-intersection-of-two-linked-lists.md)|easy|2021/03/20|
