@@ -30,6 +30,7 @@ make commit
 |142|[环形链表 II](./algorithms/142-linked-list-cycle-ii.md)|medium|2021/03/20|
 |119|[杨辉三角 II](./algorithms/119-pascals-triangle-ii.md)|easy|2021/02/12|
 |92|[反转链表 II](./algorithms/92-reverse-linked-list-ii.md)|medium|2021/03/20|
+|86|[分隔链表](./algorithms/86-partition-list.md)|medium|2021/03/20|
 |62|[不同路径](./algorithms/62-unique-paths.md)|medium|2021/02/24|
 |29|[两数相除](./algorithms/29-divide-two-integers.md)|medium|2021/02/02|
 |19|[删除链表的倒数第 N 个结点](./algorithms/19-remove-nth-node-from-end-of-list.md)|medium|2021/02/02|
