@@ -11,6 +11,7 @@ make new url=https://leetcode-cn.com/problems/xxxx/
 |---| ----- | ---------- | ---- |
 |1000051|[稀疏相似度](./algorithms/1000051-sparse-similarity-lcci.md)|hard|2021/02/02|
 |100168|[环路检测](./algorithms/100168-linked-list-cycle-lcci.md)|medium|2021/03/20|
+|100167|[链表相交](./algorithms/100167-intersection-of-two-linked-lists-lcci.md)|easy|2021/03/20|
 |1549|[绝对差不超过限制的最长连续子数组](./algorithms/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md)|medium|2021/02/21|
 |1538|[可获得的最大点数](./algorithms/1538-maximum-points-you-can-obtain-from-cards.md)|medium|2021/02/06|
 |682|[棒球比赛](./algorithms/682-baseball-game.md)|easy|2021/02/05|
