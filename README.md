@@ -27,6 +27,7 @@ make commit
 |234|[回文链表](./algorithms/234-palindrome-linked-list.md)|easy|2021/02/21|
 |160|[相交链表](./algorithms/160-intersection-of-two-linked-lists.md)|easy|2021/03/20|
 |150|[逆波兰表达式求值](./algorithms/150-evaluate-reverse-polish-notation.md)|medium|2021/03/20|
+|142|[环形链表 II](./algorithms/142-linked-list-cycle-ii.md)|medium|2021/03/20|
 |119|[杨辉三角 II](./algorithms/119-pascals-triangle-ii.md)|easy|2021/02/12|
 |62|[不同路径](./algorithms/62-unique-paths.md)|medium|2021/02/24|
 |29|[两数相除](./algorithms/29-divide-two-integers.md)|medium|2021/02/02|
