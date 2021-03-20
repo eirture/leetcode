@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-./scripts/fetch-leetcode.py $1 -o $(pwd)/algorithms

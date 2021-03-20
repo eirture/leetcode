@@ -1,5 +1,10 @@
 # leetcode-practice
 
+创建新题文件：
+```sh
+make new url=https://leetcode-cn.com/problems/xxxx/
+```
+
 ### Leetcode Algorithms
 
 | # | Title | Difficulty | Date |
