@@ -15,6 +15,7 @@ make commit
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
 |1000051|[稀疏相似度](./algorithms/1000051-sparse-similarity-lcci.md)|hard|2021/02/02|
+|1000021|[最小K个数](./algorithms/1000021-smallest-k-lcci.md)|medium|2021/03/21|
 |100168|[环路检测](./algorithms/100168-linked-list-cycle-lcci.md)|medium|2021/03/20|
 |100167|[链表相交](./algorithms/100167-intersection-of-two-linked-lists-lcci.md)|easy|2021/03/20|
 |100164|[回文链表](./algorithms/100164-palindrome-linked-list-lcci.md)|easy|2021/03/20|
