@@ -28,6 +28,7 @@ make commit
 |327|[区间和的个数](./algorithms/327-count-of-range-sum.md)|hard|2021/03/21|
 |234|[回文链表](./algorithms/234-palindrome-linked-list.md)|easy|2021/02/21|
 |215|[数组中的第K个最大元素](./algorithms/215-kth-largest-element-in-an-array.md)|medium|2021/03/20|
+|191|[位1的个数](./algorithms/191-number-of-1-bits.md)|easy|2021/03/22|
 |160|[相交链表](./algorithms/160-intersection-of-two-linked-lists.md)|easy|2021/03/20|
 |150|[逆波兰表达式求值](./algorithms/150-evaluate-reverse-polish-notation.md)|medium|2021/03/20|
 |142|[环形链表 II](./algorithms/142-linked-list-cycle-ii.md)|medium|2021/03/20|
