@@ -33,6 +33,7 @@ make commit
 |150|[逆波兰表达式求值](./algorithms/150-evaluate-reverse-polish-notation.md)|medium|2021/03/20|
 |142|[环形链表 II](./algorithms/142-linked-list-cycle-ii.md)|medium|2021/03/20|
 |119|[杨辉三角 II](./algorithms/119-pascals-triangle-ii.md)|easy|2021/02/12|
+|113|[路径总和 II](./algorithms/113-path-sum-ii.md)|medium|2021/03/22|
 |92|[反转链表 II](./algorithms/92-reverse-linked-list-ii.md)|medium|2021/03/20|
 |86|[分隔链表](./algorithms/86-partition-list.md)|medium|2021/03/20|
 |62|[不同路径](./algorithms/62-unique-paths.md)|medium|2021/02/24|
