@@ -39,9 +39,7 @@ CONTENT_GRAPHQL = '''query questionData($titleSlug: String!) {
 }'''
 
 template = '''
-## thinking
-
-## code
+## Solutions
 
 '''
 
