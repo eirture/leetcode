@@ -26,6 +26,7 @@ make commit
 |564|[寻找最近的回文数](./algorithms/564-find-the-closest-palindrome.md)|hard|2021/02/24|
 |528|[交换链表中的节点](./algorithms/528-swapping-nodes-in-a-linked-list.md)|medium|2021/03/20|
 |496|[下一个更大元素 I](./algorithms/496-next-greater-element-i.md)|easy|2021/02/05|
+|341|[扁平化嵌套列表迭代器](./algorithms/341-flatten-nested-list-iterator.md)|medium|2021/03/23|
 |327|[区间和的个数](./algorithms/327-count-of-range-sum.md)|hard|2021/03/21|
 |234|[回文链表](./algorithms/234-palindrome-linked-list.md)|easy|2021/02/21|
 |215|[数组中的第K个最大元素](./algorithms/215-kth-largest-element-in-an-array.md)|medium|2021/03/20|
