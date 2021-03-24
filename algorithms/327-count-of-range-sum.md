@@ -35,7 +35,7 @@
 </ul>
 
 
-## thinking
+## Solutions
 
 ### 1. 前缀和数组 + 暴力
 
@@ -47,18 +47,9 @@
 
 会超时。
 
-### 2. 前缀和数组 + 归并排序
-
-`TODO:2021/03/21` 这个看了题解，没有理解
-
-## code
-
-前缀和 + 暴力
-
 ```python
 class Solution:
     def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
-
         prefix_sum = [0 for _ in range(len(nums) + 1)]
         for i, v in enumerate(nums):
             prefix_sum[i + 1] = prefix_sum[i] + v
@@ -75,7 +66,11 @@ class Solution:
         return cnt
 ```
 
-前缀和 + 归并排序
+### 2. 前缀和数组 + 归并排序
+
+里面关键的思想是，利用归并排序分治过程。来往后面比较。分治过程中，会将数组分为两部分。左边所有元素都在右边元素之前。将左边每一个元素与右边元素做差值比较就行。又因为左右两组数据都是有序的。所以迭代左边数组时，left 和 right 指针只需要往从左往右走一遍就行。
+
+左边和左边内部，会在子的归并排序中分为两部分，同上逻辑做判断。
 
 ```python
 class Solution:
@@ -85,9 +80,9 @@ class Solution:
             n = len(arr)
             if n <= 1:
                 return 0
-            
-            n1 = [i for i in arr[:int(n/2)]]
-            n2 = [i for i in arr[int(n/2):]]
+
+            n1 = arr[:int(n/2)]
+            n2 = arr[int(n/2):]
             cnt = merge_count(n1) + merge_count(n2)
 
             l, r = 0, 0
