@@ -30,6 +30,7 @@ make commit
 |560|[和为K的子数组](./algorithms/560-subarray-sum-equals-k.md)|medium|2021/03/24|
 |528|[交换链表中的节点](./algorithms/528-swapping-nodes-in-a-linked-list.md)|medium|2021/03/20|
 |496|[下一个更大元素 I](./algorithms/496-next-greater-element-i.md)|easy|2021/02/05|
+|494|[目标和](./algorithms/494-target-sum.md)|medium|2021/03/26|
 |456|[132 模式](./algorithms/456-132-pattern.md)|medium|2021/03/25|
 |341|[扁平化嵌套列表迭代器](./algorithms/341-flatten-nested-list-iterator.md)|medium|2021/03/23|
 |327|[区间和的个数](./algorithms/327-count-of-range-sum.md)|hard|2021/03/24|
