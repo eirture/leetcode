@@ -42,6 +42,7 @@ make commit
 |113|[路径总和 II](./algorithms/113-path-sum-ii.md)|medium|2021/03/22|
 |92|[反转链表 II](./algorithms/92-reverse-linked-list-ii.md)|medium|2021/03/20|
 |86|[分隔链表](./algorithms/86-partition-list.md)|medium|2021/03/20|
+|83|[删除排序链表中的重复元素](./algorithms/83-remove-duplicates-from-sorted-list.md)|easy|2021/03/26|
 |82|[删除排序链表中的重复元素 II](./algorithms/82-remove-duplicates-from-sorted-list-ii.md)|medium|2021/03/25|
 |62|[不同路径](./algorithms/62-unique-paths.md)|medium|2021/02/24|
 |29|[两数相除](./algorithms/29-divide-two-integers.md)|medium|2021/02/02|
