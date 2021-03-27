@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|61|[旋转链表](./algorithms/61-rotate-list.md)|medium|2021/03/27|
 |494|[目标和](./algorithms/494-target-sum.md)|medium|2021/03/26|
 |617|[合并二叉树](./algorithms/617-merge-two-binary-trees.md)|easy|2021/03/26|
 |83|[删除排序链表中的重复元素](./algorithms/83-remove-duplicates-from-sorted-list.md)|easy|2021/03/26|
