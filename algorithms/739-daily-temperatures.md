@@ -25,8 +25,6 @@ class Solution:
                 ti = a.pop()
                 results[ti] = (i - ti)
             a.append(i)
-        for i in a:
-            results[i] = 0
 
         return results
 ```
