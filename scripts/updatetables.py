@@ -14,6 +14,8 @@ TABLE_HEADER = '''
 
 TABLE_ROW_TEMPLATE = '|{no}|[{title}]({file_path})|{level}|{date}|'
 
+now = datetime.datetime.now().timestamp()
+
 
 def parse_title(path: str):
     with open(path, 'r+') as f:
@@ -59,7 +61,7 @@ def execute(commands):
 def get_file_date(path: str):
     cmd = f'git log --pretty=format:%at -- {path}'
     stdout, _ = execute(cmd.split(' '))
-    return float(stdout.split('\n')[-1] or str(datetime.datetime.now().timestamp()))
+    return float(stdout.split('\n')[-1] or str(now))
 
 
 def do(dir_path: str):
