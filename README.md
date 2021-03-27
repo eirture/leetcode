@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|543|[二叉树的直径](./algorithms/543-diameter-of-binary-tree.md)|easy|2021/03/27|
 |581|[最短无序连续子数组](./algorithms/581-shortest-unsorted-continuous-subarray.md)|medium|2021/03/27|
 |61|[旋转链表](./algorithms/61-rotate-list.md)|medium|2021/03/27|
 |494|[目标和](./algorithms/494-target-sum.md)|medium|2021/03/26|
