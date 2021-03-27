@@ -57,9 +57,9 @@ def execute(commands):
 
 
 def get_file_date(path: str):
-    cmd = f'git log -1 --pretty=format:%ad --date=format:%Y/%m/%d -- {path}'
+    cmd = f'git log --pretty=format:%at -- {path}'
     stdout, _ = execute(cmd.split(' '))
-    return stdout or datetime.datetime.now().strftime("%Y/%m/%d")
+    return float(stdout.split('\n')[-1] or str(datetime.datetime.now().timestamp()))
 
 
 def do(dir_path: str):
@@ -67,15 +67,17 @@ def do(dir_path: str):
     for i in os.listdir(dir_path):
         path = os.path.join(dir_path, i)
         t = parse_title(path)
+        cts = get_file_date(path)
         items.append({
             'no': t[0],
             'title': t[1],
             'link': t[2],
             'level': t[3],
             'file_path': path,
-            'date': get_file_date(path)
+            'cts': cts,
+            'date': datetime.datetime.fromtimestamp(cts).strftime("%Y/%m/%d")
         })
-    items = sorted(items, key=lambda k: int(k.get('no', 0)), reverse=True)
+    items = sorted(items, key=lambda k: k.get('cts', 0), reverse=True)
     for i in items:
         yield TABLE_ROW_TEMPLATE.format(**i)
 
