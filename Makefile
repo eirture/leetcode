@@ -5,6 +5,9 @@ PWD:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 commit: table
 	./scripts/commit.sh
 
+.PHONY: commitp
+commitp: commit
+	git push
 
 .PHONY: table
 table:
