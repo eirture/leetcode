@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|416|[分割等和子集](./algorithms/416-partition-equal-subset-sum.md)|medium|2021/03/28|
 |437|[路径总和 III](./algorithms/437-path-sum-iii.md)|medium|2021/03/28|
 |438|[找到字符串中所有字母异位词](./algorithms/438-find-all-anagrams-in-a-string.md)|medium|2021/03/28|
 |173|[二叉搜索树迭代器](./algorithms/173-binary-search-tree-iterator.md)|medium|2021/03/28|
