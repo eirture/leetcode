@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|394|[字符串解码](./algorithms/394-decode-string.md)|medium|2021/03/29|
 |190|[颠倒二进制位](./algorithms/190-reverse-bits.md)|easy|2021/03/29|
 |416|[分割等和子集](./algorithms/416-partition-equal-subset-sum.md)|medium|2021/03/28|
 |437|[路径总和 III](./algorithms/437-path-sum-iii.md)|medium|2021/03/28|
