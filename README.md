@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|74|[搜索二维矩阵](./algorithms/74-search-a-2d-matrix.md)|medium|2021/03/30|
 |394|[字符串解码](./algorithms/394-decode-string.md)|medium|2021/03/29|
 |190|[颠倒二进制位](./algorithms/190-reverse-bits.md)|easy|2021/03/29|
 |416|[分割等和子集](./algorithms/416-partition-equal-subset-sum.md)|medium|2021/03/28|
