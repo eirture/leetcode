@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|78|[子集](./algorithms/78-subsets.md)|medium|2021/03/31|
 |406|[根据身高重建队列](./algorithms/406-queue-reconstruction-by-height.md)|medium|2021/03/30|
 |74|[搜索二维矩阵](./algorithms/74-search-a-2d-matrix.md)|medium|2021/03/30|
 |394|[字符串解码](./algorithms/394-decode-string.md)|medium|2021/03/29|
