@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|1048|[笨阶乘](./algorithms/1048-clumsy-factorial.md)|medium|2021/04/01|
 |90|[子集 II](./algorithms/90-subsets-ii.md)|medium|2021/03/31|
 |78|[子集](./algorithms/78-subsets.md)|medium|2021/03/31|
 |406|[根据身高重建队列](./algorithms/406-queue-reconstruction-by-height.md)|medium|2021/03/30|
