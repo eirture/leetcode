@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|1000029|[直方图的水量](./algorithms/1000029-volume-of-histogram-lcci.md)|hard|2021/04/02|
 |227|[基本计算器 II](./algorithms/227-basic-calculator-ii.md)|medium|2021/04/01|
 |1048|[笨阶乘](./algorithms/1048-clumsy-factorial.md)|medium|2021/04/01|
 |90|[子集 II](./algorithms/90-subsets-ii.md)|medium|2021/03/31|
