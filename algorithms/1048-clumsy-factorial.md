@@ -88,3 +88,7 @@ class Solution:
 
         return sum(vs)
 ```
+
+另外，这是 leetcode 的愚人节恶作剧？
+
+![](https://pic.eirture.cn/pics/Screen%20Shot%202021-04-01%20at%2010.37.49%20PM.png)
