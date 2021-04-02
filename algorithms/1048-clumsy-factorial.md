@@ -43,12 +43,7 @@
 初始版本
 
 ```py
-def minus(a, b):
-    if a < 0:
-        return -(-a // b)
-    return a // b
-
-c = [lambda a, b: a * b, minus, lambda a, b: a + b]
+c = [lambda a, b: a * b, lambda a, b: int(a / b), lambda a, b: a + b]
 
 class Solution:
     def clumsy(self, N: int) -> int:
@@ -72,12 +67,6 @@ class Solution:
 使用栈保存值，最后求和
 
 ```py
-
-def minus(a, b):
-    if a < 0:
-        return -(-a // b)
-    return a // b
-
 class Solution:
     def clumsy(self, N: int) -> int:
         vs = [N]
@@ -89,8 +78,7 @@ class Solution:
             if i == 0:
                 vs[-1] *= N
             elif i == 1:
-                # 注意 python 中 `//` 运算，负数也是往小的取，不满足题意。如：-7.5 会取 -8
-                vs[-1] = minus(vs[-1], N)
+                vs[-1] = int(vs[-1] / N)
             elif i == 2:
                 vs.append(N)
             else:
