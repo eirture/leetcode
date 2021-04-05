@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|88|[合并两个有序数组](./algorithms/88-merge-sorted-array.md)|easy|2021/04/05|
 |797|[森林中的兔子](./algorithms/797-rabbits-in-forest.md)|medium|2021/04/04|
 |1250|[最长公共子序列](./algorithms/1250-longest-common-subsequence.md)|medium|2021/04/03|
 |1000029|[直方图的水量](./algorithms/1000029-volume-of-histogram-lcci.md)|hard|2021/04/02|
