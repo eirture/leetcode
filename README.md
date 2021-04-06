@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|80|[删除有序数组中的重复项 II](./algorithms/80-remove-duplicates-from-sorted-array-ii.md)|medium|2021/04/06|
 |322|[零钱兑换](./algorithms/322-coin-change.md)|medium|2021/04/05|
 |337|[打家劫舍 III](./algorithms/337-house-robber-iii.md)|medium|2021/04/05|
 |338|[比特位计数](./algorithms/338-counting-bits.md)|medium|2021/04/05|
