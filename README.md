@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|33|[搜索旋转排序数组](./algorithms/33-search-in-rotated-sorted-array.md)|medium|2021/04/07|
 |81|[搜索旋转排序数组 II](./algorithms/81-search-in-rotated-sorted-array-ii.md)|medium|2021/04/07|
 |122|[买卖股票的最佳时机 II](./algorithms/122-best-time-to-buy-and-sell-stock-ii.md)|easy|2021/04/06|
 |121|[买卖股票的最佳时机](./algorithms/121-best-time-to-buy-and-sell-stock.md)|easy|2021/04/06|
