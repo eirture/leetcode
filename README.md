@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|714|[买卖股票的最佳时机含手续费](./algorithms/714-best-time-to-buy-and-sell-stock-with-transaction-fee.md)|medium|2021/04/08|
 |309|[最佳买卖股票时机含冷冻期](./algorithms/309-best-time-to-buy-and-sell-stock-with-cooldown.md)|medium|2021/04/08|
 |153|[寻找旋转排序数组中的最小值](./algorithms/153-find-minimum-in-rotated-sorted-array.md)|medium|2021/04/08|
 |188|[买卖股票的最佳时机 IV](./algorithms/188-best-time-to-buy-and-sell-stock-iv.md)|hard|2021/04/07|
