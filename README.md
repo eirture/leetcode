@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|179|[最大数](./algorithms/179-largest-number.md)|medium|2021/04/12|
 |264|[丑数 II](./algorithms/264-ugly-number-ii.md)|medium|2021/04/11|
 |279|[完全平方数](./algorithms/279-perfect-squares.md)|medium|2021/04/10|
 |263|[丑数](./algorithms/263-ugly-number.md)|easy|2021/04/10|
