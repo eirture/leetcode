@@ -68,3 +68,19 @@ class Solution:
         
         return (c // d) if d > 0 else 1 
 ```
+
+### 2. 动态规划
+
+用 dp[i][j] 表示到 i 行 j 列的走法。则有 `dp[i][j] = dp[i - 1][j] + dp[i][j - 1]`
+
+```py
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        dp = [[1] * n for _ in range(m)]
+
+        for i in range(1, m):
+            for j in range(1, n):
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+        
+        return dp[-1][-1]
+```
