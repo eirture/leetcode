@@ -49,37 +49,22 @@
 </ul>
 
 
-## thinking
+## Solutions
 
-## code
+### 1. 排列组合
 
-```python
+总共需要走 `(m - 1) + (n - 1)` 步，看成排列组合问题，从 `(m + n - 2)` 中选择 `min(m, n) - 1` 步出来。
 
+```py
 class Solution:
-
-    def __init__(self):
-        self.cache = []
-
-    def get_cache(self, m: int, n: int) -> int:
-        if not self.cache:
-            self.cache = [[0] * m for _ in range(n)]
-        return self.cache[n - 1][m - 1]
-
-    def set_cache(self, m: int, n: int, v: int):
-        self.cache[n - 1][m - 1] = v
-
     def uniquePaths(self, m: int, n: int) -> int:
-        if m == 1 or n == 1:
-            return 1
+        c = (m + n) - 2
+        d = min(m, n) - 1
 
-        v = self.get_cache(m, n)
-        if v > 0:
-            return v
-
-        down = self.uniquePaths(m, n - 1)
-        right = self.uniquePaths(m - 1, n)
-        v = down + right
-        self.set_cache(m, n, v)
-        return v
-
+        v1, v2 = c, d
+        for i in range(1, d):
+            c *= v1 - i
+            d *= v2 - i
+        
+        return (c // d) if d > 0 else 1 
 ```
