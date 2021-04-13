@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|64|[最小路径和](./algorithms/64-minimum-path-sum.md)|medium|2021/04/13|
 |530|[二叉搜索树的最小绝对差](./algorithms/530-minimum-absolute-difference-in-bst.md)|easy|2021/04/13|
 |799|[二叉搜索树节点最小距离](./algorithms/799-minimum-distance-between-bst-nodes.md)|easy|2021/04/13|
 |179|[最大数](./algorithms/179-largest-number.md)|medium|2021/04/12|
