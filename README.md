@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|347|[前 K 个高频元素](./algorithms/347-top-k-frequent-elements.md)|medium|2021/04/14|
 |208|[实现 Trie (前缀树)](./algorithms/208-implement-trie-prefix-tree.md)|medium|2021/04/14|
 |64|[最小路径和](./algorithms/64-minimum-path-sum.md)|medium|2021/04/13|
 |530|[二叉搜索树的最小绝对差](./algorithms/530-minimum-absolute-difference-in-bst.md)|easy|2021/04/13|
