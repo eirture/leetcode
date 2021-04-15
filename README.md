@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|226|[翻转二叉树](./algorithms/226-invert-binary-tree.md)|easy|2021/04/15|
 |213|[打家劫舍 II](./algorithms/213-house-robber-ii.md)|medium|2021/04/15|
 |198|[打家劫舍](./algorithms/198-house-robber.md)|medium|2021/04/15|
 |347|[前 K 个高频元素](./algorithms/347-top-k-frequent-elements.md)|medium|2021/04/14|
