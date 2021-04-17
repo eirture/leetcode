@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|287|[寻找重复数](./algorithms/287-find-the-duplicate-number.md)|medium|2021/04/17|
 |220|[存在重复元素 III](./algorithms/220-contains-duplicate-iii.md)|medium|2021/04/17|
 |226|[翻转二叉树](./algorithms/226-invert-binary-tree.md)|easy|2021/04/15|
 |213|[打家劫舍 II](./algorithms/213-house-robber-ii.md)|medium|2021/04/15|
