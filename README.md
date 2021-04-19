@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|27|[移除元素](./algorithms/27-remove-element.md)|easy|2021/04/19|
 |26|[删除有序数组中的重复项](./algorithms/26-remove-duplicates-from-sorted-array.md)|easy|2021/04/18|
 |287|[寻找重复数](./algorithms/287-find-the-duplicate-number.md)|medium|2021/04/17|
 |220|[存在重复元素 III](./algorithms/220-contains-duplicate-iii.md)|medium|2021/04/17|
