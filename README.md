@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|91|[解码方法](./algorithms/91-decode-ways.md)|medium|2021/04/21|
 |28|[实现 strStr()](./algorithms/28-implement-strstr.md)|easy|2021/04/20|
 |27|[移除元素](./algorithms/27-remove-element.md)|easy|2021/04/19|
 |26|[删除有序数组中的重复项](./algorithms/26-remove-duplicates-from-sorted-array.md)|easy|2021/04/18|
