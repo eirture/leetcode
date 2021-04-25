@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|933|[递增顺序搜索树](./algorithms/933-increasing-order-search-tree.md)|easy|2021/04/25|
 |377|[组合总和 Ⅳ](./algorithms/377-combination-sum-iv.md)|medium|2021/04/24|
 |368|[最大整除子集](./algorithms/368-largest-divisible-subset.md)|medium|2021/04/23|
 |363|[矩形区域不超过 K 的最大数值和](./algorithms/363-max-sum-of-rectangle-no-larger-than-k.md)|hard|2021/04/22|
