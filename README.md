@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|633|[平方数之和](./algorithms/633-sum-of-square-numbers.md)|medium|2021/04/28|
 |975|[二叉搜索树的范围和](./algorithms/975-range-sum-of-bst.md)|easy|2021/04/27|
 |1056|[在 D 天内送达包裹的能力](./algorithms/1056-capacity-to-ship-packages-within-d-days.md)|medium|2021/04/26|
 |240|[搜索二维矩阵 II](./algorithms/240-search-a-2d-matrix-ii.md)|medium|2021/04/25|
