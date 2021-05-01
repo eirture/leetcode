@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|690|[员工的重要性](./algorithms/690-employee-importance.md)|easy|2021/05/01|
 |137|[只出现一次的数字 II](./algorithms/137-single-number-ii.md)|medium|2021/04/30|
 |403|[青蛙过河](./algorithms/403-frog-jump.md)|hard|2021/04/29|
 |633|[平方数之和](./algorithms/633-sum-of-square-numbers.md)|medium|2021/04/28|
