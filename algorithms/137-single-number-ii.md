@@ -23,9 +23,9 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 <= nums.length <= 3 * 10<sup>4</sup></code></li>
-	<li><code>-2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1</code></li>
-	<li><code>nums</code> 中，除某个元素仅出现 <strong>一次</strong> 外，其余每个元素都恰出现 <strong>三次</strong></li>
+    <li><code>1 <= nums.length <= 3 * 10<sup>4</sup></code></li>
+    <li><code>-2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1</code></li>
+    <li><code>nums</code> 中，除某个元素仅出现 <strong>一次</strong> 外，其余每个元素都恰出现 <strong>三次</strong></li>
 </ul>
 
 <p> </p>
@@ -75,4 +75,28 @@ class Solution:
 
         i, _ = m.popitem()
         return i
+```
+
+### 3. 二进制位运算
+
+参考题解，有一个思路是，确定每一个二进制位。
+
+对 nums 中所有第 i 个二进制位求和 total，如果 `total % 3 == 0` 说明答案值在 i 位为 0，否则为 1。i 取 [0, 31]
+
+```py
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        ans = 0
+        for i in range(32):
+            total = sum((v >> i & 1) for v in nums)
+            if total % 3 == 0:
+                continue
+            if i == 31:
+                # 最高位为 1，表示这是个负数。负数存储的是补码（原码取反 + 1）。
+                # 等于 `ans - 1 << 32`
+                ans -= (1 << i)
+            else:
+                ans |= (1 << i)
+    
+        return ans
 ```
