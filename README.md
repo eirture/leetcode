@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|69|[x 的平方根](./algorithms/69-sqrtx.md)|easy|2021/05/02|
 |554|[砖墙](./algorithms/554-brick-wall.md)|medium|2021/05/02|
 |690|[员工的重要性](./algorithms/690-employee-importance.md)|easy|2021/05/01|
 |137|[只出现一次的数字 II](./algorithms/137-single-number-ii.md)|medium|2021/04/30|
