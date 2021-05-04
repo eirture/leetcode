@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|1583|[粉刷房子 III](./algorithms/1583-paint-house-iii.md)|hard|2021/05/04|
 |7|[整数反转](./algorithms/7-reverse-integer.md)|easy|2021/05/03|
 |69|[x 的平方根](./algorithms/69-sqrtx.md)|easy|2021/05/02|
 |554|[砖墙](./algorithms/554-brick-wall.md)|medium|2021/05/02|
