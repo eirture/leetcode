@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|283|[移动零](./algorithms/283-move-zeroes.md)|easy|2021/05/05|
 |740|[删除并获得点数](./algorithms/740-delete-and-earn.md)|medium|2021/05/05|
 |1583|[粉刷房子 III](./algorithms/1583-paint-house-iii.md)|hard|2021/05/04|
 |7|[整数反转](./algorithms/7-reverse-integer.md)|easy|2021/05/03|
