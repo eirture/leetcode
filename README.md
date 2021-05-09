@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|1605|[制作 m 束花所需的最少天数](./algorithms/1605-minimum-number-of-days-to-make-m-bouquets.md)|medium|2021/05/09|
 |200|[岛屿数量](./algorithms/200-number-of-islands.md)|medium|2021/05/07|
 |1839|[解码异或后的数组](./algorithms/1839-decode-xored-array.md)|easy|2021/05/06|
 |283|[移动零](./algorithms/283-move-zeroes.md)|easy|2021/05/05|
