@@ -14,6 +14,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|904|[叶子相似的树](./algorithms/904-leaf-similar-trees.md)|easy|2021/05/10|
 |1605|[制作 m 束花所需的最少天数](./algorithms/1605-minimum-number-of-days-to-make-m-bouquets.md)|medium|2021/05/09|
 |200|[岛屿数量](./algorithms/200-number-of-islands.md)|medium|2021/05/07|
 |1839|[解码异或后的数组](./algorithms/1839-decode-xored-array.md)|easy|2021/05/06|
