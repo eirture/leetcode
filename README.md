@@ -1,5 +1,10 @@
 # leetcode-practice
 
+![GitHub last commit](https://img.shields.io/github/last-commit/eirture/leetcode)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/eirture/leetcode)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=eirture.leetcode)
+
+
 创建新题文件：
 ```sh
 make new url=https://leetcode-cn.com/problems/xxxx/
