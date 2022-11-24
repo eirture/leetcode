@@ -2,25 +2,21 @@
 
 set -e
 
-export FILES=$(git status --short | awk '{print $2}')
+FILES=$(git status --short | awk '{print $2}')
+MSG=''
 
-MSG=`python <<EOF
-import os, re
+for fp in $FILES; do
+    fn=$(basename $fp)
+    # filter files which name start with digits
+    if [[ $(echo $fn | grep -Eo '^[0-9]') ]]; then
+        MSG="${MSG}$(echo $fn | sed 's/-/. /;s/-/ /g;s/\.md$//')\n"
+    fi
+done
 
-def main():
-    files = os.getenv("FILES").split()
-    lines = []
-    for f in files:
-        name = f.split('/')[-1]
-        if not re.match('^[0-9]+.*', name):
-            continue
-        lines.append(name.replace('-', '. ', 1).replace('-', ' ').replace('.md', ''))
+# remove the empty line
+# MSG=$(printf "$MSG" | sed /^$/d)
 
-    print('\n'.join(lines))
-
-main()
-EOF
-`
-
+# printf "$MSG"
 git add -A
-git commit -m "$MSG"
+git commit -F <(printf "$MSG" | sort -n)
+
