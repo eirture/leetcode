@@ -19,6 +19,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|2654|[统计范围内的元音字符串数](./algorithms/2654-count-the-number-of-vowel-strings-in-range.md)|easy|2023/11/07|
 |307|[区域和检索 - 数组可修改](./algorithms/307-range-sum-query-mutable.md)|medium|2022/04/05|
 |904|[叶子相似的树](./algorithms/904-leaf-similar-trees.md)|easy|2021/05/10|
 |1605|[制作 m 束花所需的最少天数](./algorithms/1605-minimum-number-of-days-to-make-m-bouquets.md)|medium|2021/05/09|
