@@ -10,7 +10,7 @@ import urllib.parse
 __author__ = "Jie Liu <eirture@gmail.com>"
 
 
-LEETCODE_URL = "https://leetcode-cn.com/graphql/"
+LEETCODE_URL = "https://leetcode.cn/graphql/"
 
 CONTENT_GRAPHQL = '''query questionData($titleSlug: String!) {
   question(titleSlug: $titleSlug) {
@@ -71,7 +71,7 @@ def get_content(url):
     conn = clazz(p.hostname, p.port)
     conn.request(
         "POST", p.path, json.dumps(data),
-        {'Content-Type': 'application/json', 'origin': 'https://leetcode-cn.com'}
+        {'Content-Type': 'application/json', 'origin': 'https://leetcode.cn'}
     )
     resp = conn.getresponse()
 
