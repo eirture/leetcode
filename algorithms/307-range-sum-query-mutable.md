@@ -99,6 +99,48 @@ func (this *NumArray) SumRange(left int, right int) int {
  */
 ```
 
+保存数组所有元素的前缀和 psum，求 [i, j] 的和，等于 psum[j]-psum[i-1]。不过更新 i 元素，需要更新 i 之后所有的和值。
+
+时间复杂度为 O(n)；空间复杂度为 O(n)
+
+```go
+type NumArray struct {
+    psum []int
+}
+
+
+func Constructor(nums []int) NumArray {
+    sums := make([]int, len(nums)+1)
+    for i, v := range nums {
+        sums[i+1] = sums[i] + v
+    }
+    return NumArray{
+        psum: sums,
+    }
+}
+
+
+func (this *NumArray) Update(index int, val int)  {
+    gap := val - (this.psum[index+1] - this.psum[index])
+    for i := index+1; i < len(this.psum); i++ {
+        this.psum[i] = this.psum[i] + gap
+    }
+}
+
+
+func (this *NumArray) SumRange(left int, right int) int {
+    return this.psum[right+1] - this.psum[left]
+}
+
+
+/**
+ * Your NumArray object will be instantiated and called as such:
+ * obj := Constructor(nums);
+ * obj.Update(index,val);
+ * param_2 := obj.SumRange(left,right);
+ */
+```
+
 ### 分块处理
 
 分块处理，是把数抽象了一下，多个数据当作一个数据来处理。这样做，在查询范围的时候，需要将边界数据拆开，来重新算一遍。
