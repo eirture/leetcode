@@ -19,6 +19,7 @@ make commit
 
 | # | Title | Difficulty | Date |
 |---| ----- | ---------- | ---- |
+|2228|[给植物浇水 II](./algorithms/2228-watering-plants-ii.md)|medium|2024/05/09|
 |11|[盛最多水的容器](./algorithms/11-container-with-most-water.md)|medium|2023/11/08|
 |2654|[统计范围内的元音字符串数](./algorithms/2654-count-the-number-of-vowel-strings-in-range.md)|easy|2023/11/07|
 |307|[区域和检索 - 数组可修改](./algorithms/307-range-sum-query-mutable.md)|medium|2022/04/05|
